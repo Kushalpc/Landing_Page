@@ -62,12 +62,14 @@ a:hover{
 }
 .left-foot button{
     background-color: #3882F6;
-    border-radius: 10%;
+    border-radius: 10px;
     color: white;
     margin-top: 1rem;
     margin-left: 1rem;
     font-size: 20px;
-    padding: 10px 15px;
+    padding: 10px 25px;
+    border: 0px;
+    font-weight: 700;
 }
 .left-foot h1{
     font-size: 48px;
@@ -122,4 +124,32 @@ a:hover{
     text-align: end;
     font-size: 30px;
     font-weight: bold;
+}
+.sign-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+.sign{
+    background-color: #3882F6;
+    width: 65%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-sign h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.right-sign button{
+    font-size: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
