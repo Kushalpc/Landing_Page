@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     gap: 60%;
     align-items: center;
-    padding: .5rem;
+    padding: .8rem;
     margin-bottom: 4rem;
 }
 a{
@@ -152,4 +152,11 @@ a:hover{
     border: 2px solid white;
     border-radius: 10px;
 
+}
+footer{
+    background-color: #1F2937;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
