@@ -11,7 +11,6 @@ header{
     background-color: #1f2937;
     height: 42vh;
     min-height: max-content;
-    min-width: max-content;
 }
 .section-one{
     width: 70%;
@@ -81,17 +80,46 @@ a:hover{
     color: black;
     width: 70%;
     margin: 0 auto;
-    text-align: center;
 }
 .image-detail div img{
     height: 200px;
+    border-radius: 10%;
 }
 .image-container{
     display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-bottom: 5rem;
 }
 .information{
     margin: 3rem auto;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+}
+.image-detail{
+    width: 200px;
+}
+.quote-container{
+    background-color: #e5e7eb;
+    color: black;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+.quote .text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0px 5rem;
+}
+.quote{
+    width: 70%;
+}
+.writer{
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
 }
