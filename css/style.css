@@ -21,7 +21,7 @@ header{
     gap: 60%;
     align-items: center;
     padding: .8rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 a{
     text-decoration: none;
@@ -171,4 +171,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.left-link li{
+    height: 62px;
+    width: auto;
+}
+.left-link li a img{
+    height: 100%;
+    border-radius: 50%;
 }
