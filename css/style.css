@@ -47,8 +47,14 @@ a:hover{
     color: greenyellow;
 }
 .placeholder{
-    width: 50%;
-    height: auto;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+}
+.placeholder img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .headfoot{
     display: flex;
@@ -102,6 +108,12 @@ a:hover{
 }
 .image-detail{
     width: 200px;
+    overflow: hidden;
+}
+.image-detail img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .quote-container{
     background-color: #e5e7eb;
