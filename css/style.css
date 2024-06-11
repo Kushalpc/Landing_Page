@@ -9,8 +9,6 @@ body{
 }
 header{
     background-color: #1f2937;
-    height: 42vh;
-    min-height: max-content;
 }
 .section-one{
     width: 70%;
@@ -59,6 +57,7 @@ a:hover{
 .headfoot{
     display: flex;
     gap: 4rem;
+    padding-bottom: 4rem;
 }
 .left-foot{
     width: 50%;
@@ -96,8 +95,9 @@ a:hover{
 .image-container{
     display: flex;
     width: 75%;
-    justify-content: space-between;
+    gap: 5%;
     margin-bottom: 5rem;
+
 }
 .information{
     margin: 3rem auto;
